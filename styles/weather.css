@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+}
+body {
+  background-image: url("/imges/15244408_SL_042221_42420_05.jpg");
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 300px;
+  width: 550px;
+}
+#city {
+  font-size: 17px;
+  padding: 5px;
+}
+#search {
+  background-color: grey;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+  padding: 5px;
+  font-size: 17px;
+  margin-left: -4px;
+}
+#body {
+  display: flex;
+  margin-top: 40px;
+  /* border: solid green; */
+  justify-content: space-evenly;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding-top: 40px;
+  background-color: #fff;
+}
+#main {
+  width: 70%;
+  margin: auto;
+  /* border: solid red; */
+}
+#navbar {
+  /* border: solid blue; */
+  text-align: center;
+  margin-top: 30px;
+}
+input {
+  width: 50%;
+  border-radius: 5px 0px 0px 5px;
+}
+#forcast {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+
+  /* border: solid red; */
+}
+#forcast > div {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 8px 12px 8px 12px;
+  background-color: #fff;
+}
+#h1 {
+  width: 70%;
+  margin: auto;
+}
